@@ -7,6 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>To Do App</h1>
+        <form id="form">
+            <input type="text" id="input" placeholder="Add a new task">
+            <button type="submit">Add</button>
+        </form>
+        <div>
+            <h2>Tasks: </h2>
+            <ul id="list"></ul>
+
+            <button class="clear-todos clear">Clear All</button>
+        </div>
+        <div>
+            <h2>Completed Tasks: </h2>
+            <ul id="completed"></ul>
+
+            <button class="clear-completed clear">Clear All</button>
+        </div>
+        <div>
+            <h2>Deleted Tasks: </h2>
+            <ul id="deleted"></ul>
+
+            <button class="clear-deleted clear">Clear All</button>
+        </div>
+    </div>
     <script src="main.js" defer></script>
 </body>
 </html>
